@@ -32,12 +32,12 @@ html {
 }
 
 .social {
-    margin-top: 0px;
+     margin-top: 50px;
     padding: 0;
 }
 
 .social i {
-    margin-top: 50px;
+   margin-top: 0;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 0;
@@ -92,4 +92,10 @@ html {
     #nav-mobile {
         margin-right: 0;
     }
+}
+
+
+/***************** footer style ***********************/
+.page-footer{
+  background-color: #7DB557;
 }
