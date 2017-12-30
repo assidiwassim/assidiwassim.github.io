@@ -124,6 +124,11 @@ h1{
     #nav-mobile {
         margin-right: 0;
     }
+    
+    .social i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 }
 
 
