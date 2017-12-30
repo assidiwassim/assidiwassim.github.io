@@ -6,6 +6,7 @@ html {
 
 .brand-logo {
     margin-left: 80px;
+
 }
 
 .nav-wrapper {
@@ -120,6 +121,7 @@ h1{
 @media screen and (min-width: 200px) and (max-width: 992px) {
     .brand-logo {
         margin-left: 0;
+        font-size: 25px;
     }
     #nav-mobile {
         margin-right: 0;
