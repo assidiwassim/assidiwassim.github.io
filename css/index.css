@@ -8,27 +8,22 @@ html {
     margin-left: 80px;
 }
 
+.nav-wrapper {
+    background-color: #00BCD4;
+}
+
 #nav-mobile {
     margin-right: 80px;
 }
+
+/******* Home style *******/
 
 #home {
     width: 100%;
     height: 100%;
 }
-
-.nav-wrapper {
-    background-color: #7DB557;
-}
-
 .parallax-container {
-    height: 630px !important;
-}
-
-#MessagePosition {
-    position: fixed;
-    bottom: 35px;
-    right: 35px;
+    height: 591px !important;
 }
 
 .social {
@@ -50,10 +45,6 @@ html {
 
 
 }
-
-
-
-
 
 #facebook:hover {
     color:#0177B5;
@@ -78,13 +69,52 @@ html {
 }
 
 
-.row {
+#home .row {
     margin: 0;
+}
+h1{
+    font-size: 44px;
 }
 
 
-/***************************** img cercle style *********************/
+/******* APROPOS style *******/
+#apropos {
+    width: 100%;
+   height: 500px ;
+}
 
+#apropos #paragraph-about{
+     text-align: justify;
+    text-justify: inter-word;
+    margin-top: 30px;
+}
+
+/******* COMPETANCE style *******/
+
+#competance {
+    width: 100%;
+   height: 500px ;
+}
+
+/******* REALISATION style *******/
+
+#realisation {
+    width: 100%;
+   height: 500px ;
+    background-color: white;
+}
+
+
+/******* Msg icon style *******/
+
+#MessagePosition {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+}
+
+
+/******* Responsive *******/
 @media screen and (min-width: 200px) and (max-width: 992px) {
     .brand-logo {
         margin-left: 0;
@@ -97,5 +127,6 @@ html {
 
 /***************** footer style ***********************/
 .page-footer{
-  background-color: #7DB557;
+  background-color: #F5F2F0;
+    color:black;
 }
