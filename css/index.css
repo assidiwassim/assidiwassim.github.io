@@ -73,7 +73,7 @@ html {
     margin: 0;
 }
 h1{
-    font-size: 44px;
+    font-size: 40px;
 }
 
 
@@ -126,9 +126,13 @@ h1{
     }
     
     .social i {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
+    h1{
+    font-size: 25px;
+    }
+
 }
 
 
