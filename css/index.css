@@ -83,7 +83,7 @@ h1{
 /******* APROPOS style *******/
 #apropos {
     width: 100%;
-   height: 591px;
+  height: 100%;
 }
 
 #apropos #paragraph-about{
