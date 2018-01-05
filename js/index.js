@@ -15,6 +15,10 @@
   );
             
             
+            
+            
     });
         
-
+function toast(){
+    Materialize.toast('cette fonctionnalité n\'est pas disponible maintenant.', 4000);
+}

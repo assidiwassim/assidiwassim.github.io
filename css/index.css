@@ -15,17 +15,16 @@ p {
 .nav-wrapper {
     background-color: #00BCD4;
 }
-#nav-mobile {
-    margin-right: 80px;
-}
+
 
 /******* Home style *******/
 
 #home {
     width: 100%;
     height: 100%;
+    z-index: -1;
 }
-.parallax-container {
+#home .parallax-container {
     height: 610px !important;
 }
 .social {
@@ -90,6 +89,9 @@ h1 {
 #competance .card-logo {
     margin-top: -60px !important;
 }
+#competance .parallax-container {
+    height: 100% !important;
+}
 
 /******* REALISATION style *******/
 
@@ -112,8 +114,20 @@ h1 {
     right: 35px;
 }
 
-/******* Responsive *******/
+/******* Mobile NavBar *******/
 
+#nav-mobile{
+     margin-right: 80px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+/******* Responsive *******/
 @media screen and (min-width: 200px) and (max-width: 992px) {
     .brand-logo {
         margin-left: 0;
@@ -135,6 +149,9 @@ h1 {
     #realisation .row {
         padding: 0;
     }
+    #competance .row {
+    padding: 0;
+}
 }
 
 /***************** footer style ***********************/
