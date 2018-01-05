@@ -19,7 +19,6 @@
     }
   );
             
-            
 
 
 
@@ -27,8 +26,10 @@
 $(document.body).hammer().on(" panright ", function(ev) {
      if ($(window).width() < 980) {
    if (a==0){
+       if(ev.gesture.distance>60)
      $('.button-collapse').sideNav('show');
    }}
+     
 });  
             
 
