@@ -12,11 +12,10 @@
       draggable: true, // Choose whether you can drag to open on touch screens,
       onOpen: function(el) {    
           a=1; 
-          console.log(a);
-                           }, 
+            }, 
       onClose: function(el) { 
           a=0 ;
-          console.log(a);}, 
+      }, 
     }
   );
             
@@ -33,12 +32,19 @@ $(document.body).hammer().on(" panright ", function(ev) {
 });  
             
 
+// smooth scroll
+   $('.scrollspy').scrollSpy({
+       scrollOffset:50
+   });        
+
             
 });
-        
+   
+// toast message
 function toast(){
     Materialize.toast('cette fonctionnalité n\'est pas disponible maintenant.', 4000);
 }
+
 
 
 

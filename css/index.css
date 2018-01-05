@@ -20,9 +20,9 @@ p {
 /******* Home style *******/
 
 #home {
+    margin-top: -20px;
     width: 100%;
     height: 100%;
-    z-index: -1;
 }
 #home .parallax-container {
     height: 610px !important;
