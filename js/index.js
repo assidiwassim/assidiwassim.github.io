@@ -36,10 +36,10 @@ $(document.body).hammer().on(" panright ", function(ev) {
 // smooth scroll
    $('.scrollspy').scrollSpy({
        scrollOffset:50
-   });        
-
+   });     
             
-});
+
+
    
 // toast message
 function toast(){
