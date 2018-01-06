@@ -37,7 +37,7 @@ $(document.body).hammer().on(" panright ", function(ev) {
    $('.scrollspy').scrollSpy({
        scrollOffset:50
    });     
-            
+        });       
 
 
    
