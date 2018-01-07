@@ -47,13 +47,43 @@
 
 <body>
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.11&appId=164496334039829';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        /***************** like and share **********************/
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.11&appId=164496334039829';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+        /***************** Messenger **********************/
+
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '164496334039829',
+                xfbml: true,
+                version: 'v2.8'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
 
     <header>
         <ul id="slide-out" class="side-nav">
@@ -342,10 +372,14 @@
     </section>
 
     <a id="MessagePosition" class="btn btn-floating btn-large cyan  waves-effect waves-light" onclick="toast()"><i class="material-icons">message</i></a>
-    
+
+
+    <div class="fb-messengermessageus" messenger_app_id="95100348886" page_id="XYZ" color="blue" size="large">
+    </div>
+
     <div class="facebook-style">
-    <div class="fb-like" data-href="https://web.facebook.com/freelancedeveloppement/messages/" data-width="40"  data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-     </div>
+        <div class="fb-like" data-href="https://web.facebook.com/freelancedeveloppement/messages/" data-width="40" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    </div>
     <br>
     <br>
     <footer class="page-footer">
