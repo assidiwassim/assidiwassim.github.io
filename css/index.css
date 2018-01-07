@@ -4,12 +4,12 @@ html {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 h1 {
-    font-size: 32px;
+    font-size: 29px;
 }
-h2 {
+h2,h3,h4 {
     font-size: 27px;
 }
-h3 {
+h5 {
     font-size: 18px;
 }
 p {
