@@ -175,8 +175,8 @@ h1 {
     
 }
 
-.loading-screen .preloader-wrapper{
-    left:47%;
-    top:40%;
-
+/************************ facebook style **************/
+.facebook-style{
+    text-align: center !important;
+    margin: 0 auto 0 auto !important;
 }
