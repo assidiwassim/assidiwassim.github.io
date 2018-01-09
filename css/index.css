@@ -36,7 +36,16 @@ p {
 #home .parallax-container {
     height: 610px !important;
 }
-
+#home .hr_horizentale{
+    margin: 10px auto 20px auto;
+    background-color: #00BCD4 ;
+    width: 50px;
+    height: 3px;
+}
+#home .download-button{
+    margin-top:15px;
+    background-color: #00BCD4 ;
+}
 
 .social {
     margin-top: 50px;
