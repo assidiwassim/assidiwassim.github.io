@@ -3,13 +3,6 @@
 ==================================================*/
 
 
-/* Large Devices (Desktops & Laptops) */
-
-@media (min-width: 1200px) {
-    /* OK */
-}
-
-
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -122,12 +115,7 @@
     #footer-copyrights {
         text-align: center;
     }
-}
-
-
-/* Extra Small Devices (Portrait Phones & Smaller devices) */
-
-@media (max-width: 480px) {
+    /*****************custom style add by wassim ******/
     .animated {
         -webkit-transition: none !important;
         -moz-transition: none !important;
@@ -147,10 +135,13 @@
         font-size: 17px;
     }
     #services .container {
-        padding: 0 0;
+        padding: 0 15px;
     }
-    #services .btn {
+    #services .AfficherPlus {
         width: 100% !important;
+    }
+    #services p {
+        margin: 0;
     }
     #about-content-box {
         height: 100%;
@@ -169,23 +160,19 @@
         text-justify: inter-word;
     }
     #pricing .container {
-        padding: 0 10px;
+        padding: 0 15px;
     }
 }
 
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
+@media (max-width: 500px) {}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
 @media (max-width: 320px) {
-    /* Services */
-    .service-item-icon i {
-        width: 58px;
-        height: 58px;
-        padding: 7px;
-    }
-    .service-item-title h3 {
-        font-size: 17px;
-    }
     /* About */
     #about-content-box {
         margin-top: 40px;
