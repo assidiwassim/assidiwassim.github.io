@@ -128,7 +128,49 @@
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
 @media (max-width: 480px) {
-    /* OK */
+    .animated {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+    }
+    .wow {
+        visibility: visible !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+    #home .btn-general {
+        font-size: 17px;
+    }
+    #services .container {
+        padding: 0 0;
+    }
+    #services .btn {
+        width: 100% !important;
+    }
+    #about-content-box {
+        height: 100%;
+    }
+    #about .content-title h3 {
+        text-align: center;
+    }
+    #about .content-title-underline {
+        margin: 0 auto 40px auto;
+    }
+    #about .btn {
+        width: 100% !important;
+    }
+    #about p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    #pricing .container {
+        padding: 0 10px;
+    }
 }
 
 
