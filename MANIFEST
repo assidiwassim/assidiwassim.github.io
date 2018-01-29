@@ -6,8 +6,6 @@ optimized contents of your page are larger than 10 MB, we list them in
 this file too, with 'NOT INCLUDED' to indicate those URLs require
 further optimization.
 
-css/index.css: http://assidiwassim.me/css/index.css
-js/index.js: http://assidiwassim.me/js/index.js
 image/couverture.jpg: http://assidiwassim.me/img/couverture.jpeg
 image/home2.jpg: http://assidiwassim.me/img/home2.png
 image/default-profile.jpg: http://www.mixhackathon.com/sites/default/files/styles/sidebar_scale/public/user-pictures/default-profile.jpg?itok=SkL8JjM8
