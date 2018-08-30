@@ -58,3 +58,7 @@ abbr[title] {
 .ctrlq.fb-overlay{z-index:0;position:fixed;height:100vh;width:100vw;-webkit-transition:opacity .4s, visibility .4s;transition:opacity .4s, visibility .4s;top:0;left:0;background:rgba(0, 0, 0, .05);display:none}
 .ctrlq.fb-close{z-index:4;padding:0 6px;background:#365899;font-weight:700;font-size:11px;color:#fff;margin:8px;border-radius:3px}
 .ctrlq.fb-close::after{content:'x';font-family:sans-serif}
+
+.card .card-image img {
+  height: 150px;
+}
