@@ -1,4 +1,10 @@
-User-Agent: *    
-Disallow: 
+User-agent: *
+Disallow: /img/couverture.jpeg
+Disallow: /img/home2.png
+Disallow: /image/userr.jpg
+Disallow: /img/user.png
+Disallow: /img/user.png
+Disallow: /img/user.png
+Disallow: /img/user.png
 
 Sitemap: http://www.assidiwassim.me/sitemap/sitemap.xml
