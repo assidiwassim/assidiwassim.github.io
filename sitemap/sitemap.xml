@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.assidi.me/sitemap/sitemap.xml">
+<urlset xmlns="https://www.assidiwassim.me/sitemap/sitemap.xml">
   <url>
-    <loc>http://assidiwassim.me</loc>
+    <loc>https://assidiwassim.me</loc>
     <lastmod>2018-01-01</lastmod>
-    <changefreq>wassim</changefreq>
+    <changefreq>wassim assidi</changefreq>
     <priority>1</priority>
   </url>
 </urlset>
